@@ -5,5 +5,5 @@ from django.db import models
 # 创建app，使用 python manage.py startapp
 
 class Gallery(models.Model):
-		descrption = models.CharField(max_length=50)
-    
+		descrption = models.CharField(default='这里是默认描述'，max_length=100)
+    	image = models.ImageField(default='default.png', upload_to='/images/')
