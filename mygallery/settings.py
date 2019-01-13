@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #这是我的app，创建以后要注册，这是注册代码
+    'gallery.apps.GalleryConfig',
 ]
 
 MIDDLEWARE = [

@@ -5,5 +5,8 @@
 </head>
 <body>
 <h1>here is the home page.</h1>
+{% for a in frontgallery.all %}
+{{ a.descrption }}
+{% endfor %}
 </body>
 </html>
