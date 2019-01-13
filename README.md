@@ -15,3 +15,7 @@ mygallery
 在 urls 中配置
 在 views 中实现 home 方法，此时才可以调用 gallery 类
 最后 home.html 中调用 数据库数据。
+
+修改urls便于存储图片
+修改 gallery 类，把属性都存储到数据库
+修改完类以后，对照到数据库。需要重新 makedmigrations , migrate.
